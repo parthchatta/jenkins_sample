@@ -1,3 +1,8 @@
+import sys
+
+
 print("hello")
-a = input("enter the text: ")
+print(str(sys.argv))
+print(len(sys.argv))
+a = sys.argv[0]
 print(a)
